@@ -5,8 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {HomeModule} from './modules/pages/home/home.module';
-import {HeaderModule} from "./core/header/header.module";
-import {FooterModule} from "./core/footer/footer.module";
+import {HeaderModule} from './core/header/header.module';
+import {FooterModule} from './core/footer/footer.module';
+import {AppMaterialModule} from './app-material.module';
 
 
 
@@ -20,6 +21,7 @@ import {FooterModule} from "./core/footer/footer.module";
     HomeModule,
     HeaderModule,
     BrowserAnimationsModule,
+    AppMaterialModule,
     FooterModule
   ],
   providers: [],
